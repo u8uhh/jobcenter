@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jObceNter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Lobster&display=swap" rel="stylesheet">
+    <style type="text/css">
+        .pressed-button::selection{
+            color: white;
+            background-color: black;
+        }
+        .pressed-button:hover::selection{
+            color: white;
+            background-color: black;
+        }
+        .image {
+            width: 100%;
+            height: 300px;
+        }
+
+        .ex1::selection{
+            color: white;
+            background-color: black;
+        }
+        .ex2::selection{
+            color: white;
+            background-color: black;
+        }
+        .eb::selection{
+            color: white;
+            background-color: black;
+        }
+        .image::selection{
+            color: white;
+            background-color: black;
+        }
+        .image1::selection{
+            color: white;
+            background-color: black;
+        }
+
+        header {
+            height: 150px;
+            background-color: rgb(78, 76, 72);
+            
+        }
+        
+        body {
+            background-color: rgb(54, 52, 49);
+            float: left;
+        }
+        
+        .ex1 {
+            font-size: 50px;
+            color: rgb(255, 255, 255);
+            text-align: center;
+        }
+        
+        .ex2 {
+            font-size: 50px;
+            color: rgb(255, 255, 255);
+            text-align: center;
+        }
+        
+        .eb {
+            font-size: 25px;
+            color: rgb(255, 255, 255);
+            text-align: center;
+        }
+        
+
+        
+        .menu {
+            background-color: rgb(54, 52, 49);
+            width: 25%;
+            float: left;
+            height: 400px;
+        }
+        
+        .content {
+            background-color: rgba(47, 50, 48, 0.937);
+            width: 75%;
+            float: left;
+        }
+        
+        footer {
+            height: 250px;
+            background-color: rgb(54, 52, 49);
+            float: center;
+            /*clear: both;*/
+        }
+        
+        .image1 {
+            float: right;
+            height: 40px;
+            width: 40px;
+        }
+        
+        button {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+        
+        .pressed-button {
+            text-decoration: none;
+            display: inline-block;
+            padding: 12px 40px;
+            margin: 10px 20px;
+            border-radius: 30px;
+            background-image: linear-gradient(45deg, #141614 0%, #1d201d 50%, #373b38 100%);
+            background-position: 100% 0;
+            background-size: 200% 200%;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 24px;
+            font-weight: 300;
+            color: rgb(255, 255, 255);
+            box-shadow: 0 16px 32px 0 rgba(41, 41, 42, 0.35);
+            transition: .5s;
+            width: 120px;
+            margin-left: 50px;
+        }
+        
+        .pressed-button:hover {
+            box-shadow: 0 0 0 0 rgba(0, 40, 120, 0);
+            background-position: 0 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <header>
+            <p class="ex1">Jobcenter</p>
+        </header>
+    </div>
+    <div>
+        <img src="images.jpg" class="image">
+    </div>
+    <div class="menu">
+        <p class="ex2">To another pages</p>
+        <a href="search residence.html" class="pressed-button" target="_blank">Search residence</a>
+    </div>
+    <div class="content">
+        <p class="ex2">About Jobcenter</p>
+        <p class="eb">
+            That's an organisation with helps people with somethings, like residence, automobile and job. Can I get financial aid here?
+            If you live in Ukraine and do not have money to take care of yourself and your family, the Jobcenter may be the right point of contact for you. Under certain conditions, the job center provides assistance to people who have never worked in Germany, have been unemployed for more than a year, or earn little money despite working. In the employment center, you can get financial support for yourself and your family. This benefit is officially called "
+            Citizen money". It is a successor to unemployment benefit II ("unemployment benefit II"). Employees of the employment center will support you in finding a job.
+        </p>
+        <footer>
+            <p class="ex1">You can also contact with us!</p>
+            <button>
+            <a href="https://www.instagram.com/" ><img src="download (1).jpg" class="image1"></a></button>
+
+        </footer>
+    </div>
+
+</body>
+
+</html>
