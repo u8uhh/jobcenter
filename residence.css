@@ -52,6 +52,12 @@ img {
     height: 210px;
 }
 
+.footer_social_button img{
+    border: none;
+    width: 40px;
+    height: 40px;
+}
+
 blockquote {
     font-style: italic;
     margin: 0 0 0 10px;
@@ -151,7 +157,7 @@ h6 {
     background: url(../images/templatemo_divider.png) repeat-x bottom;
 }
 
-.image_fl {
+.lng-product-title {
     float: left;
     margin: 3px 20px 5px 0
 }
@@ -325,12 +331,12 @@ h6 {
     margin-bottom: 0px;
 }
 
-p.position {
+p.lng-position {
     color: #ffffff;
     font-weight: bold;
     font-size: 12px;
     font-style: italic;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 .recent_post {
