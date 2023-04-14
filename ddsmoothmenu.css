@@ -222,26 +222,26 @@ iframe::selection{
     font-size: 24px;
     color: rgb(41, 41, 51);
     position: absolute;
-    top: 65%;
-    left: 15.9%;
+    top: 24%;
+    left: 13%;
     transform: translate(-50%, -50%);
 }
 
 .lng-unit {
-    font-size: 24px;
+    font-size: 22px;
     color: rgb(41, 41, 51);
     position: absolute;
-    top: 72%;
-    left: 15.9%;
+    top: 26%;
+    left: 13%;
     transform: translate(-50%, -50%);
 }
 
 .lng-centered2 {
-    font-size: 24px;
+    font-size: 22px;
     color: rgb(41, 41, 51);
     position: absolute;
-    top: 140%;
-    left: 15.9%;
+    top: 57%;
+    left: 13%;
     transform: translate(-50%, -50%);
 }
 
@@ -249,8 +249,8 @@ iframe::selection{
     font-size: 24px;
     color: rgb(41, 41, 51);
     position: absolute;
-    top: 147%;
-    left: 15.9%;
+    top: 55%;
+    left: 13%;
     transform: translate(-50%, -50%);
 }
 
@@ -258,8 +258,8 @@ iframe::selection{
     font-size: 24px;
     color: rgb(41, 41, 51);
     position: absolute;
-    top: 220%;
-    left: 15.9%;
+    top: 87%;
+    left: 13%;
     transform: translate(-50%, -50%);
 }
 
@@ -267,7 +267,7 @@ iframe::selection{
     font-size: 24px;
     color: rgb(41, 41, 51);
     position: absolute;
-    top: 227%;
-    left: 15.9%;
+    top: 85%;
+    left: 13%;
     transform: translate(-50%, -50%);
 }
