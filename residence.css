@@ -131,6 +131,10 @@ h6 {
     clear: both
 }
 
+.h1 {
+    height: 10px
+}
+
 .h10 {
     height: 10px
 }
