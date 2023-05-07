@@ -222,7 +222,7 @@ iframe::selection{
     font-size: 22px;
     color: rgb(255, 255, 255);
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 13%;
     transform: translate(-50%, -50%);
 }
