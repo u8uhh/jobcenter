@@ -35,8 +35,8 @@ const langArr = {
     },
 
     "product-title2":{
-        "en": "Situated in Podil in 30 minutes of foot to Pochaina metro station, 20 minutes of foot to trolleybuses 30, 31, 29D, 34, buses 21, 101 and 150 and 2 minutes of foot to bus 114",
-        "ua": "Розташована на Подолі в 30 хвилинах ходьби до станції метро Почайна, 20 хвилинах ходьби до тролейбусів 30, 31, 29Д, 34, автобусів 21, 101 і 150 і 2 хвилинах ходьби до маршрутки 114.",
+        "en": "Situated in Podil in 30 minutes of foot to Pochaina metro station, 20 minutes of foot to trolleybuses 30, 31, 29D, 34, buses 21, 101 and 2 minutes of foot to bus 114",
+        "ua": "Розташована на Подолі в 30 хвилинах ходьби до станції метро Почайна, 20 хвилинах ходьби до тролейбусів 30, 31, 29Д, 34, автобусів 21, 101 і 2 хвилинах ходьби до маршрутки 114.",
     },
 
     "unit2":{
@@ -55,8 +55,8 @@ const langArr = {
     },
 
     "product-title6":{
-        "en": "Situated in Obolon area in 10 minutes of foot to Pochaina metro station, 5 minutes of foot to trolleybuses 30, 31, 29D, 34, buses 21, 101, 150 and 7 minutes of foot to trolleybuses 25 and 27",
-        "ua": "Розташована на Оболоні в 10 хвилинах ходьби до станції метро Почайна, в 5 хвилинах ходьби до тролейбусів 30, 31, 29Д, 34, автобусів 21, 101, 150 і в 7 хвилинах ходьби до тролейбусів 25 і 27.",
+        "en": "Situated in Obolon area in 10 minutes of foot to Pochaina metro station, 5 minutes of foot to trolleybuses 30, 31, 29D, 34, buses 21, 101 and 7 minutes of foot to trolleybuses 25 and 27",
+        "ua": "Розташована на Оболоні в 10 хвилинах ходьби до станції метро Почайна, в 5 хвилинах ходьби до тролейбусів 30, 31, 29Д, 34, автобусів 21, 101 і в 7 хвилинах ходьби до тролейбусів 25 і 27.",
     },
 
     "unit6":{
