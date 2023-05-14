@@ -35,13 +35,13 @@ const langArr = {
     },
 
     "product-title2":{
-        "en": "Situated in Podil in 30 minutes of foot to Pochaina metro station, 20 minutes of foot to trolleybuses 30, 31, 29D, 34, buses 21, 101 and 2 minutes of foot to bus 114",
-        "ua": "Розташована на Подолі в 30 хвилинах ходьби до станції метро Почайна, 20 хвилинах ходьби до тролейбусів 30, 31, 29Д, 34, автобусів 21, 101 і 2 хвилинах ходьби до маршрутки 114.",
+        "en": "Situated in Darnytsia in 5-10 minutes of foot to trolleybuses 43, 50 buses 42, 51, 55, 115 and 118 and 10-15 minutes of foot to urbanrail",
+        "ua": "Знаходиться в Дарниці в 5-10 хвилинах ходьби до тролейбусів 43, 50 автобусів 42, 51, 55, 115 і 118 і 10-15 хвилинах ходьби до міської електрички.",
     },
 
     "unit2":{
-        "en": "Rybal's'ky island residence",
-        "ua": "Житловий комплекс 'Рибальський острів'",
+        "en": "Comfort Town residence",
+        "ua": "Житловий комплекс 'Затишне містечко'",
     },
 
     "product-title5":{
@@ -65,13 +65,13 @@ const langArr = {
     },
 
     "product-title7":{
-        "en": "Situated in Podil in 15 minutes of foot to Druzhby narodiv metro station, trolleybuses 43, 50, bus 51 and 5 minutes of foot to trolleybuses 15 and 38.",
-        "ua": "Знаходиться на Подолі в 15 хвилинах ходьби до станції метро Дружби народів, тролейбусів 43, 50, автобуса 51 та 5 хвилин ходьби до тролейбусів 15 і 38.",
+        "en": "Situated in Obolon in 0,5 minutes of foot to Obolon metro station, trams 11 and 17, 2 minutes of foot to buses 73, 102 and trolleybus 44 and 5 minutes of foot to bus 50.",
+        "ua": "Розташований на Оболоні в 0,5 хвилинах ходьби до станції метро Оболонь, трамваїв 11 і 17, 2 хвилин пішки до автобусів 73, 102 і тролейбуса 44 і 5 хвилин пішки до автобуса 50.",
     },
 
     "unit7":{
-        "en": "Novopechers'ki Lypky residence",
-        "ua": "Житловий комплекс 'Новопечерські Липки'",
+        "en": "Obolon Plaza",
+        "ua": "Житловий комплекс 'Оболонь плаза'",
     },
 
     "product-title8":{
@@ -105,8 +105,8 @@ const langArr = {
     },
 
     "product-title01":{
-        "en": "Situated in Podil in 5 minutes of foot to Palace of sport metro station, 2-4 minutes of foot to trolleybuses 12, 40, 40K, buses 20, 25 and ten minutes of foot to Palace of sport metro station",
-        "ua": "Знаходиться на Подолі в 5 хвилинах ходьби до станції метро Палац Спорту, 2-4 хвилинах ходьби до тролейбусів 12, 40, 40К, автобусів 20, 25 і десяти хвилинах ходьби до станції метро Палац Спорту.",
+        "en": "Situated in Pecherskyi area in 5 minutes of foot to Palace of sport metro station, 2-4 minutes of foot to trolleybuses 12, 40, 40K, buses 20, 25 and ten minutes of foot to Palace of sport metro station",
+        "ua": "Знаходиться у Печерському районі в 5 хвилинах ходьби до станції метро Палац Спорту, 2-4 хвилинах ходьби до тролейбусів 12, 40, 40К, автобусів 20, 25 і десяти хвилинах ходьби до станції метро Палац Спорту.",
     },
 
     "unit01":{
@@ -215,4 +215,149 @@ const langArr = {
         "en": "About us",
         "ua": "Про нас",
     }, 
+
+    "unit44":{
+        "en": "Smart Obolon residence",
+        "ua": "Смарт резиденція Оболонь",
+    },
+
+    "product-title012": {
+        "en": "Situated in Obolon area in two minutes of foot to Minska metro station, two-four minutes of foot to buses 50, 73, 99 and trolleybus 24, 34, 36 and 47 and five-ten minutes of foot to tram number 16",
+        "ua": "Розташована на Оболоні в двох хвилинах ходьби до станції метро Мінська, в двох-чотирьох хвилинах ходьби до автобусів 50, 73, 99 і тролейбусів 24, 34, 36 і 47 і в п'яти-десяти хвилинах ходьби до трамвая № 16",
+    },
+
+    "unit45":{
+        "en": "Obolon residence",
+        "ua": "Резиденція Оболонь",
+    },
+
+    "product-title013": {
+        "en": "Situated in Obolon area in 2 minutes of foot to Minska metro station, 2-4 minutes of foot to buses 50, 73, 99 and trolleybus 24, 34, 36 and 47 and ten-fivetenth minutes of foot to tram number sixteenth",
+        "ua": "Розташована на Оболоні в 2 хвилинах ходьби до станції метро Мінська, 2-4 хвилини ходьби до автобусів 50, 73, 99 і тролейбусів 24, 34, 36 і 47 і 10-15 хвилин ходьби до трамвая № 16."
+    },
+
+    "unit46":{
+        "en": "044 residence",
+        "ua": "Резиденція 044",
+    },
+
+    "product-title014": {
+        "en": "Situated in Podil in 5-10 minutes of foot to Tarasa Schevchenka metro station, 2 minutes of foot to trams 11, 12, 16 and 19",
+        "ua": "Знаходиться на Подолі в 5-10 хвилинах ходьби до станції метро Тараса Шевченка, 2 хвилинах ходьби до трамваїв 11, 12, 16 і 19.",
+    },
+
+    "unit47":{
+        "en": "Signature residence",
+        "ua": "Резиденція Сигнатура",
+    },
+
+    "product-title015": {
+        "en": "Situated in Pecherskyi area in 2 minutes of foot to buses 24, 55 and 62 and in 5 minutes of foot to Klovska metro station",
+        "ua": "Розташована в Печерському районі в 2 хвилинах ходьби до автобусів 24, 55 і 62 і в 5 хвилинах ходьби до станції метро Кловська.",
+    },
+
+    "unit48":{
+        "en": "Rybalsky residence",
+        "ua": "Рибальська резиденція",
+    },
+
+    "product-title016": {
+        "en": "Situated in Podil in 30 minutes of foot to Pochaina metro station, 20 minutes of foot to trolleybuses 30, 31, 29D, 34, buses 21, 101 and 2 minutes of foot to bus 114",
+        "ua": "Розташована на Подолі в 30 хвилинах ходьби до станції метро Почайна, 20 хвилинах ходьби до тролейбусів 30, 31, 29Д, 34, автобусів 21, 101 та 2 хвилинах ходьби до автобуса 114.",
+    },
+
+    "unit49":{
+        "en": "Novopecherskyi Lypky residence",
+        "ua": "Резиденція Новопечерські Липки",
+    },
+
+    "product-title017": {
+        "en": "Situated in Pecherskyi area in 15 minutes of foot to Druzhby narodiv metro station, trolleybuses 43, 50, bus 51 and 5 minutes of foot to trolleybuses 15 and 38.",
+        "ua": "Знаходиться в Печерському районі в 15 хвилинах ходьби до станції метро Дружби народів, тролейбусів 43, 50, автобуса 51 і 5 хвилин ходьби до тролейбусів 15 і 38.",
+    },
+
+    "unit100" :  {
+        "en": "Culinarium",
+        "ua": "Кулінарія",
+    }, 
+
+    "product-title11": {
+        "en": "At this job you can practice you cooking skills earning money. The are a lot of restaurants for being a cooker. The awarage salary is 16000 hryvnias.",
+        "ua": "На цій роботі ви можете практикувати свої кулінарні навички, заробляючи гроші. Є багато ресторанів для кухаря. Середня заробітна плата 16000 грн.",
+    },
+
+    "unit101" :  {
+        "en": "Designer",
+        "ua": "Дизайнер",
+    }, 
+
+    "product-title12": {
+        "en": "At this job you'll demonstrate you art-skills. You'll maybe demonstrate ability to do a designs of some street, room, furniture or anything else. The average salary is approximately 22000 hryvnias.",
+        "ua": "На цій роботі ви продемонструєте свої художні здібності. Можливо, ви продемонструєте вміння створювати дизайн вулиці, кімнати, меблів чи будь-чого іншого. Середня заробітна плата приблизно 22000 грн.",
+    },
+
+    "unit102" :  {
+        "en": "Architector",
+        "ua": "Архітектор",
+    }, 
+
+    "product-title13": {
+        "en": "You can work as an architect. That's a required profession as a designer. In this job you'll demonstrate your skills of 3D-Modelling. The average salary is approximately 18000-20000 hryvnias.",
+        "ua": "Ви можете працювати архітектором. Це обов’язкова професія дизайнера. У цій роботі ви продемонструєте свої навички 3D-моделювання. Середня зарплата приблизно 18000-20000 грн.",
+    },
+
+    "unit103" :  {
+        "en": "Programmer",
+        "ua": "Програміст",
+    }, 
+
+    "product-title14": {
+        "en": "That's a well-paid job qith average salary in 25000-35000 hryvnias. For this job the most important to know maths if its about maths programming languages and english in generally because you maybe would have coolaborate in a command.",
+        "ua": "Це добре оплачувана робота із середньою зарплатою 25000-35000 грн. Для цієї роботи найважливіше знати математику, якщо мова йде про математичні мови програмування та англійську мову загалом, тому що вам, можливо, доведеться співпрацювати в команді.",
+    },
+
+    "unit104" :  {
+        "en": "Director",
+        "ua": "Режисер",
+    }, 
+
+    "product-title15": {
+        "en": "That's also a popular and well-paid job which requires knowledge of video-motion. In this job is analogy to programming you should be collaborate in a command but no writing a code.",
+        "ua": "Це також популярна і добре оплачувана робота, яка потребує знання відеороликів. У цій роботі є аналогія з програмуванням, ви повинні співпрацювати в команді, але не писати код.",
+    },
+
+    "unit105" :  {
+        "en": "Product-Manager",
+        "ua": "Менеджер по продукції",
+    }, 
+
+    "product-title16": {
+        "en": "Product-Manager is also well-quality proffesion where you don't need a knowledge of programming. You just have to be able to speak with customers. Product Managers are responsible for developing products and services that meet the needs of the customer efficiently. An awerage salary - 22000 hryvnias.",
+        "ua": "Product-Manager також є якісною професією, де не потрібні знання програмування. Ви просто повинні вміти спілкуватися з клієнтами. Менеджери з продуктів відповідають за розробку продуктів і послуг, які ефективно відповідають потребам клієнта. Середня заробітна плата - 22000 грн.",
+    },
+
+    "unit106" :  {
+        "en": "Logistic",
+        "ua": "Логістика",
+    }, 
+
+    "product-title17": {
+        "en": "Logistics refers to the strategic movement of goods and services from one place to another with the rise of e-commerce and online shopping, logistics is now integral to the global supply chain process, and it encompasses the procurement, storage and distribution of materials that power the economy. The awerage salary is about 23000 hryvnias.",
+        "ua": "Логістика відноситься до стратегічного переміщення товарів і послуг з одного місця в інше з розвитком електронної комерції та онлайн-покупок. Тепер логістика є невід’ємною частиною глобального процесу постачання та охоплює закупівлю, зберігання та розподіл матеріалів, які живлять економіка. Середня заробітна плата близько 23000 грн.",
+    },
+
+    "unit107" :  {
+        "en": "Trolleybus driver",
+        "ua": "Водій тролейбуса",
+    }, 
+
+    "product-title18": {
+        "en": "Trolleybus driver is also required profession in our city. For this job is important to have a driving license of Category A and D. The awerage salary - 15000-20000 hryvnias.",
+        "ua": "Водій тролейбуса також є необхідною професією в нашому місті. Для даної роботи важливо мати водійські права категорій А та D. Середня заробітна плата - 15000-20000 грн.",
+    },
+
+    "product-title40":{
+        "en": "Top 8 best jobs",
+        "ua": "Топ 8 найкращих вакансій",
+    },
 }

@@ -684,14 +684,14 @@ p.lng-position {
 }
 
 .twitter_post li {
-    margin: 0 0 10px;
+    margin: 0 0 1px;
     padding: 0 0 7px;
     border-bottom: 1px dotted #313030;
 }
 
 .footer_social_button {
     clear: both;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
 }
 
 .footer_social_button a {

@@ -1,6 +1,6 @@
 const maxImg = document.querySelector('.right-panel img');
 const select = document.querySelector('select');
-const allLang = ['en', 'ua'];
+const allLang = ['en', 'ua', 'ge'];
 
 document.querySelectorAll('.left-panel img').forEach(item => item.onmouseenter = (event) => maxImg.src = event.target.src);
 
