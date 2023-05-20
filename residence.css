@@ -6,11 +6,10 @@ http://www.templatemo.com/preview/templatemo_358_carousel
 body {
     margin: 0;
     padding: 0;
-    color: #ffffff;
     font-family: Tahoma, Geneva, sans-serif;
     font-size: 13px;
     line-height: 1.4em;
-    background-color: #3b3939;
+    background-color: #ffffff;
     background-repeat: repeat-x;
     background-position: top;
 }
@@ -26,7 +25,7 @@ body {
 a,
 a:link,
 a:visited {
-    color: #f3f3f3;
+    color: #000000;
     font-weight: normal;
     text-decoration: none;
 }
@@ -65,7 +64,7 @@ blockquote {
 
 cite {
     font-weight: bold;
-    color: #ffffff;
+    color: #000000;
 }
 
 cite a,
@@ -78,7 +77,7 @@ cite a:visited {
 
 cite span {
     font-weight: 400;
-    color: #ffffff;
+    color: #000000;
 }
 
 h1,
@@ -87,7 +86,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #ffffff;
+    color: #000000;
     font-weight: normal;
 }
 
@@ -186,19 +185,19 @@ h6 {
 }
 
 .templatemo_list li {
-    color: #ffffff;
+    color: #000000;
     margin: 0 0 10px 0;
     padding: 0 5px 0 15px;
     background: url(../images/templatemo_list.png) no-repeat scroll 0 4px;
 }
 
 .templatemo_list li a {
-    color: #ffffff;
+    color: #000000;
     font-weight: normal;
 }
 
 .templatemo_list li a:hover {
-    color: #ffffff;
+    color: #000000;
 }
 
 #templatemo_header_wrapper {
@@ -218,8 +217,7 @@ h6 {
     width: 960px;
     margin: 0 auto;
     padding: 40px 10px 20px;
-    background-color: rgb(54, 52, 49);
-    border: 0,5px solid #fff;
+    border: 0,5px solid #000000;
     margin-bottom: 40px;
 }
 
@@ -236,7 +234,6 @@ h6 {
 
 #templatemo_bottom_wrapper {
     width: 100%;
-    background: #272525;
 }
 
 #templatemo_bottom {
@@ -247,7 +244,6 @@ h6 {
 
 #templatemo_footer_wrapper {
     width: 100%;
-    background: #181818;
 }
 
 #templatemo_footer {
@@ -258,7 +254,7 @@ h6 {
 }
 
 #templatemo_footer a {
-    color: #ffffff;
+    color: #000000;
 }
 
 #site_title {
@@ -276,7 +272,7 @@ h6 {
     font-size: 12px;
     width: 150px;
     height: 45px;
-    color: #ffffff;
+    color: #000000;
     text-indent: -10000px;
     background: url(../images/templatemo_logo.png) no-repeat center left;
 }
@@ -305,13 +301,13 @@ h6 {
 .rp_pp {
     margin-bottom: 10px;
     padding-bottom: 10px;
-    border-bottom: 1px dotted #ced4dc;
+    border-bottom: 1px dotted #000000;
 }
 
 .rp_pp img {
     float: left;
     margin-right: 15px;
-    border: 3px solid #fff;
+    border: 3px solid #000000;
 }
 
 .rp_pp p {
@@ -336,7 +332,7 @@ h6 {
 }
 
 p.lng-position {
-    color: #ffffff;
+    color: #000000;
     font-weight: bold;
     font-size: 12px;
     font-style: italic;
@@ -353,7 +349,7 @@ p.lng-position {
     margin: 0 0 15px;
     padding: 0 0 15px;
     font-size: 11px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #000000;
 }
 
 .recent_post li a {
@@ -371,7 +367,7 @@ p.lng-position {
 }
 
 .post h2.home {
-    color: #ffffff;
+    color: #000000;
     font-size: 18px;
     margin-bottom: 0;
 }
@@ -379,14 +375,14 @@ p.lng-position {
 .post h2 {
     margin-bottom: 0;
     line-height: 38px;
-    border-bottom: 1px solid #999;
+    border-bottom: 1px solid #000000;
     margin-bottom: 20px;
 }
 
 .post .meta {
     font-size: 10px;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     border-left: none;
     border-right: none;
 }
@@ -419,12 +415,12 @@ p.lng-position {
 }
 
 .post .meta span.more_but a {
-    color: #ffffff;
+    color: #000000;
 }
 
 .post .meta a,
 .post .meta strong {
-    color: #ffffff;
+    color: #000000;
     font-weight: 700;
 }
 
@@ -449,11 +445,11 @@ p.lng-position {
 }
 
 .comments li .commentbox1 {
-    border: 1px solid #d7cfbe;
+    border: 1px solid #000000;
 }
 
 .comments li .commentbox2 {
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
 }
 
 .comments li .comment_box {
@@ -481,21 +477,21 @@ p.lng-position {
 .comment_text .comment_author {
     font-size: 14px;
     font-weight: bold;
-    color: #ffffff;
+    color: #000000;
     margin-bottom: 10px;
 }
 
 .comment_text .date {
     font-size: 12px;
     font-weight: normal;
-    color: #ffffff;
+    color: #000000;
     padding-left: 10px;
 }
 
 .comment_text .time {
     font-size: 12px;
     font-weight: normal;
-    color: #ffffff;
+    color: #000000;
     padding-left: 10px;
 }
 
@@ -503,7 +499,7 @@ p.lng-position {
     display: block;
     clear: both;
     float: right;
-    color: #ffffff;
+    color: #000000;
     font-weight: 700;
 }
 
@@ -513,15 +509,14 @@ p.lng-position {
 
 #comment_form h3 {
     font-size: 20px;
-    border-bottom: 1px solid #1b1b1b;
+    border-bottom: 1px solid #000000;
     margin-bottom: 15px;
     padding-bottom: 10px;
 }
 
 #comment_form textarea {
-    color: #ffffff;
-    background: #fff;
-    border: 1px solid #ccc;
+    color: #000000;
+    border: 1px solid #000000;
     height: 150px;
     padding: 5px;
     width: 360px;
@@ -536,11 +531,10 @@ p.lng-position {
 }
 
 #comment_form form input {
-    color: #ffffff;
+    color: #000000;
     padding: 5px;
     width: 200px;
-    background: #fff;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     font-family: Tahoma, Geneva, sans-serif;
     font-size: 12px;
     margin-top: 5px;
@@ -549,9 +543,8 @@ p.lng-position {
 #comment_form .submit_btn {
     width: 80px;
     height: 30px;
-    color: #ffffff;
-    background: #fff;
-    border: 1px solid #ccc;
+    color: #000000;
+    border: 1px solid #0f0f0f;
 }
 
 .gallery_box {
@@ -576,7 +569,7 @@ p.lng-position {
 .testimonial {
     padding: 0 0 20px 70px;
     margin-bottom: 30px;
-    border-bottom: 1px dotted #ced4dc;
+    border-bottom: 1px dotted #000000;
     display: block;
     background: url(../images/speech_bubble_grey.png) left top no-repeat;
 }
@@ -595,9 +588,8 @@ p.lng-position {
 #contact_form form .input_field {
     width: 270px;
     padding: 5px;
-    color: #fff;
-    background: #333;
-    border: 1px solid #dedede;
+    color: #000000;
+    border: 1px solid #000000;
     font-family: Tahoma, Geneva, sans-serif;
     font-size: 12px;
     margin-top: 5px;
@@ -614,9 +606,8 @@ p.lng-position {
     width: 398px;
     height: 200px;
     padding: 5px;
-    color: #ffffff;
-    background: #333;
-    border: 1px solid #dedede;
+    color: #000000;
+    border: 1px solid #000000;
     font-family: Tahoma, Geneva, sans-serif;
     font-size: 12px;
     margin-top: 5px;
@@ -627,8 +618,8 @@ p.lng-position {
     width: 80px;
     height: 25px;
     background: url(../images/templatemo_button_02.png);
-    border: 1px solid #ffffff;
-    color: #fff;
+    border: 1px solid #000000;
+    color: #000000;
     font-size: 13px;
     border: none;
     margin: 10px 0px;
@@ -640,7 +631,7 @@ p.lng-position {
     height: 27px;
     padding-top: 4px;
     margin-left: 30px;
-    color: #fff;
+    color: #000000;
     background: url(../images/templatemo_footer_header_right.png) no-repeat right
 }
 
@@ -658,7 +649,7 @@ p.lng-position {
 }
 
 #templatemo_bottom a {
-    color: #ffffff;
+    color: #000000;
 }
 
 .footer_list {
@@ -670,11 +661,11 @@ p.lng-position {
 .footer_list li {
     margin: 0 0 5px;
     padding: 0 0 5px;
-    border-bottom: 1px dotted #313030;
+    border-bottom: 1px dotted #000000;
 }
 
 .footer_list li a {
-    color: #ffffff;
+    color: #000000;
 }
 
 .twitter_post {
@@ -686,7 +677,7 @@ p.lng-position {
 .twitter_post li {
     margin: 0 0 1px;
     padding: 0 0 7px;
-    border-bottom: 1px dotted #313030;
+    border-bottom: 1px dotted #000000;
 }
 
 .footer_social_button {
@@ -753,16 +744,14 @@ p.lng-position {
 .pagging ul li a {
     float: left;
     display: block;
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
     margin-right: 5px;
     padding: 5px 10px;
-    background: #393838;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
 }
 
 .pagging ul li a:hover {
-    background: #424040;
-    border: 1px solid #fff;
-    color: #fff;
+    border: 1px solid #000000;
+    color: #000000;
 }

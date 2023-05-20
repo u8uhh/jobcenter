@@ -2,16 +2,19 @@ const langArr = {
     "unit" :  {
         "en": "Welcome!",
         "ua": "Ласкаво просимо!",
+        "ge": "Willkommen!",
     }, 
 
     "unit1" :  {
         "en": "Faynatown residence",
         "ua": "Житловий комплекс 'Файне містечко'",
+        "ge": "Faynatown-Residenz",
     }, 
 
     "unit3" :  {
-        "en": "You can contact with us and watch our prepositions on such social medias and networkings as:",
+        "en": "You can contact with us and watch our prepositions on such social medias and networking as:",
         "ua": "Ви можете зв*язатися з нами та дивитися наші пропозиції на таких соціальних спілках та мережах:",
+        "ge": "Sie können mit uns Kontakt aufnehmen und unsere Beiträge in sozialen Medien und Netzwerken ansehen wie:",
     }, 
     
     "unit4" :  {
@@ -22,26 +25,31 @@ const langArr = {
     "product-title1": {
         "en": "Situated in Swyatoschyn area in 10 minutes of foot to Nyvky metro station, trolleybuses 5, 5D, 26, 36 and buses 14, 23, 32 and 47",
         "ua": "Розташована на Святощині в 10 хвилинах ходьби до станції метро *Нивки*, тролейбусів 5, 5Д, 26, 36 та автобусів 14, 23, 32 і 47.",
+        "ge": "Liegt in Svyatoshchyna, 10 Gehminuten von der U-Bahn-Station *Nyvky*, den Trolleybussen 5, 5D, 26, 36 und den Bussen 14, 23, 32 und 47 entfernt.",
     }, 
 
     "product-title":{
         "en": "Situated in Schevchenkiv area in 15 minutes of foot to Dorogozhychy metro station and 5 minutes of foot to trolleybuses 16, 19, 23, 31 and 35",
         "ua": "Розташована в Шевченківському районі в 15 хвилинах ходьби до станції метро «Дорогожичі» та в 5 хвилинах ходьби до тролейбусів 16, 19, 23, 31 і 35.",
+        "ge": "Das Hotel liegt im Stadtteil Schewtschenkiw, 15 Gehminuten von der U-Bahn-Station Dorogozhychy und 5 Gehminuten von den Oberleitungsbussen 16, 19, 23, 31 und 35 entfernt",
     },
 
     "unit_":{
         "en": "Unithome residence",
         "ua": "Житловий комплекс 'Юнітхоум'",
+        "ge": "Unithome-Residenz",
     },
 
     "product-title2":{
         "en": "Situated in Darnytsia in 5-10 minutes of foot to trolleybuses 43, 50 buses 42, 51, 55, 115 and 118 and 10-15 minutes of foot to urbanrail",
         "ua": "Знаходиться в Дарниці в 5-10 хвилинах ходьби до тролейбусів 43, 50 автобусів 42, 51, 55, 115 і 118 і 10-15 хвилинах ходьби до міської електрички.",
+        "ge": "Das Hotel liegt in Darnytsia, 5 bis 10 Gehminuten von den Trolleybussen 43, 50 und den Bussen 42, 51, 55, 115 und 118 sowie 10 bis 15 Gehminuten von der Stadtbahn entfernt",
     },
 
     "unit2":{
         "en": "Comfort Town residence",
         "ua": "Житловий комплекс 'Затишне містечко'",
+        "ge": "Comfort Town Residenz",
     },
 
     "product-title5":{
