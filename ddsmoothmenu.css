@@ -218,6 +218,11 @@ iframe::selection{
     background-color: black;
 }
 
+.change-lang::selection {
+    color: white;
+    background-color: black;
+}
+
 .lng-unit {
     font-size: 22px;
     color: rgb(0, 0, 0);

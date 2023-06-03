@@ -2,106 +2,127 @@ const langArr = {
     "unit" :  {
         "en": "1month = 17.000 grn",
         "ua": "1місяць = 17.000 грн",
+        "ge": "1 Monat = 17.000 UAH",
     },
 
     "centered" :  {
         "en": "1m = 8.000 grn",
         "ua": "1метр = 8.000 грн",
+        "ge": "1m = 8.000 grn",
     },
 
     "centered2" :  {
         "en": "1month = 20.000 grn",
         "ua": "1місяць = 20.000 грн",
+        "ge": "1 Monat = 20.000 grn",
     },
 
     "centered3" :  {
         "en": "1m = 10.000 grn",
         "ua": "1метр = 10.000 грн",
+        "ge": "1m = 10.000 grn",
     },
 
     "centered4" :  {
         "en": "1month = 23.000 grn",
         "ua": "1місяць = 23.000 грн",
+        "ge": "1 Monat = 23.000 grn",
     },
 
     "centered5" :  {
         "en": "1m = 12.000 grn",
         "ua": "1метр = 12.000 грн",
+        "ge": "1m = 12.000 grn",
     },
 
     "unit0": {
         "en": "That's a variant of flat with 1 room. It costs 8.000 hryvnias for 1 metter. If you would like to rent a flat, it will cost 17.000 hryvnias in month.",
-        "ua": "Це варіант однокімнатної квартири. Коштує 8000 грн за 1 метр. Якщо ви захочете орендувати квартиру, це коштуватиме 17.000 гривень на місяць."
+        "ua": "Це варіант однокімнатної квартири. Коштує 8000 грн за 1 метр. Якщо ви захочете орендувати квартиру, це коштуватиме 17.000 гривень на місяць.",
+        "ge": "Das ist eine Variante einer Wohnung mit 1 Zimmer. Ein Meter kostet 8.000 Griwna. Wenn Sie eine Wohnung mieten möchten, kostet dies 17.000 Griwna pro Monat.",
     },
 
     "unit1": {
         "en": "That's a variant of flat with 2 rooms. It costs 10.000 hryvnias for 1 metter. If you would like to rent a flat, it will cost 20.000 hryvnias in month.",
-        "ua": "Це варіант квартири з 2 кімнат. Коштує 10 000 грн за метр. Якщо ви хочете орендувати квартиру, це коштуватиме 20.000 гривень на місяць."
+        "ua": "Це варіант квартири з 2 кімнат. Коштує 10 000 грн за метр. Якщо ви хочете орендувати квартиру, це коштуватиме 20.000 гривень на місяць.",
+        "ge": "Das ist eine Variante einer Wohnung mit 2 Zimmern. Ein Meter kostet 10.000 Griwna. Wenn Sie eine Wohnung mieten möchten, kostet dies 20.000 Griwna pro Monat.",
     },
 
     "unit2": {
         "en": "That's a variant of flat with 3 rooms. It costs 12.000 hryvnias for 1 metter. If you would like to rent a flat, it will cost 23.000 hryvnias in month.",
-        "ua": "Варіант 3-х кімнатної квартири. Коштує 12 000 грн за метр. Якщо ви бажаєте орендувати квартиру, це обійдеться в 23.000 гривень на місяць."
+        "ua": "Варіант 3-х кімнатної квартири. Коштує 12 000 грн за метр. Якщо ви бажаєте орендувати квартиру, це обійдеться в 23.000 гривень на місяць.",
+        "ge": "Das ist eine Variante einer Wohnung mit 3 Zimmern. Ein Meter kostet 12.000 Griwna. Wenn Sie eine Wohnung mieten möchten, kostet dies 23.000 Griwna pro Monat.",
     },
     
     "more": {
         "en": "1-rooms flat",
         "ua": "Однокімнатна квартира",
+        "ge": "1-Zimmer-Wohnung",
     },
 
     "more1": {
         "en": "2-rooms flat",
         "ua": "Двокімнатна квартира",
+        "ge": "2-Zimmer-Wohnung",
     },
 
     "more2": {
         "en": "3-rooms flat",
         "ua": "Трикімнатна квартира",
+        "ge": "3-rooms flat"
     },
 
     "more3": {
         "en": "Blogroll",
         "ua": "Блогрол",
+        "ge": "Blogroll",
     },
 
     "more4": {
         "en": "Updates",
         "ua": "Оновлення",
+        "ge": "Aktualisierung"
     },
 
     "more5": {
         "en": "About us",
         "ua": "Про нас",
+        "ge": "Über Uns"
     },
 
     "more6": {
         "en": "Previous",
         "ua": "Попереднє",
+        "ge": "Vorherige",
     },
 
     "more7": {
         "en": "Next",
         "ua": "Наступне",
+        "ge": "Nächste",
     },
 
     "more8": {
         "en": "Categories",
         "ua": "Категорії",
+        "ge": "Kategorien",
     },
 
     "more9": {
         "en": "Recent Posts",
         "ua": "Останні повідомлення",
+        "ge": "kürzliche Posts",
     },
 
     "more10": {
         "en": "Parks",
         "ua": "Парки",
+        "ge": "Parks"
     },
 
     "more12": {
         "en": "Jobs",
         "ua": "Професії",
+        "ge": "Arbeitsplätze"
     },
 
     "more11": {
