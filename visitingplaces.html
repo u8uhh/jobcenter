@@ -83,13 +83,16 @@ http://www.templatemo.com/preview/templatemo_358_carousel
 </head>
 
 <body id="subpage">
+    <div id="google_translate_element"></div>
 
-    <select class="change-lang">
-        <option value="ua" selected>UA</option>
-        <option value="ge">GE</option>
-        <option value="en">EN</option>
-    </select>
-
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
+    </script>
+    
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    
     <div id="templatemo_header_wrapper">
         <div id="site_title">
             <h1><a href="#">Carousel Template</a></h1>
@@ -129,23 +132,22 @@ http://www.templatemo.com/preview/templatemo_358_carousel
 
         <h2>Top 8 best places to visit in Kyiv</h2>
 
-        <div class="card" data-city="khre">
-            <div class="image_frame"><img src="Khreshatyk.jpg" style="height:200px;"> </div>
-            <!--<p><i>Széchenyi Thermal Baths </i></p>-->
-            <p class="text">
+        <div class="card" data-city="buda">
+            <div class="img"><img src="Khreshatyk.jpg" class="image_frame" style="height:200px;"> </div>
+            <p>
                 khreshchatyk, is the main street of Kyiv, Ukraine which named after named river "Khreshchawk The street has a length of 1.2 kilometres (0.75 mi). It stretches from the European Square (northeast through the Maidan and to Bessarabska Square (southwest) where the Besarabsky Market is located. Along the street are the offices of the Kyiv City Council which contains both the city's council and the state
                 <span class="dots">...</span>
                 <span class="more" style="display: none;">administration, the Main Post Office, the Ministry of Agrarian Policy, the State Committee of Television and Radio Broadcasting, the Central Department Store (TsUM), the Ukrainian House, and others.</span>
             </p>
         <ul class="footer_list">
-            <a onclick="readMore('khre')" class="myBtn">Read more</a>
+            <a onclick="readMore('buda')" class="myBtn">Read more</a>
         </ul>
         </div>
 
         <div class="card" data-city="andr">
             <img src="Andriivskyi descent.jpg" class="image_frame" style="height: 200px;"/>
             <h5>Andriivskyi descent</h5>
-            <p>
+            <p class="description">
                 Andriivskvi descent is a historic descent connecting Kyiv's Upper Town neighborhood and the historically commercial Podil neighborhood.
 The street, often advertised by tour guides and operators as the "Montmartre of Kyiv", is a major tourist attraction of the city. It is included in the list of national landmarks by the government resolution. In addition, the street is also part of the Kyiv city historic reserve "Ancient Kyiv", while
                 <span class="dots">...</span>
@@ -222,6 +224,11 @@ Situated on a steep hill, where Andrew the Apostle is believed to have foretold
             </ul>
         </div>
 
+        <!--<div class="content">
+            <h1 class="title">Hello World</h1>
+            <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div> -->
+
         <div class="card" data-city="natm">
             <img src="NationalMuseum.jpg" class="image_frame" style="height: 200px;"/>
             <h5>National Museum of the history of Ukraine</h5>
@@ -295,9 +302,9 @@ Situated on a steep hill, where Andrew the Apostle is believed to have foretold
         <!-- END of templatemo_footer_wrapper -->
     </div>
     <!-- END of templatemo_footer -->
-    <script src="lang2.js"></script>
     <script src="app.js"></script>
     <script src="sc.js"></script>
+    <script src="lng.js"></script>
 </body>
 
 </html>
