@@ -74,11 +74,16 @@ http://www.templatemo.com/preview/templatemo_358_carousel
 </style>
 
 <body id="subpage">
-    <select class="change-lang">
-        <option value="ua" selected>UA</option>
-        <option value="ge">GE</option>
-        <option value="en">EN</option>
-    </select>
+    <div id="google_translate_element"></div>
+
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
+    </script>
+    
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
     <div id="templatemo_header_wrapper">
         <div id="site_title">
             <h1><a href="#">Carousel Template</a></h1>
@@ -209,7 +214,7 @@ http://www.templatemo.com/preview/templatemo_358_carousel
         <!-- END of templatemo_footer_wrapper -->
     </div>
     <!-- END of templatemo_footer -->
-    <script src="lang3.js"></script>
+    <script src="lng.js"></script>
     <script src="app.js"></script>
 
 </body>

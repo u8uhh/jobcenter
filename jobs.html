@@ -79,11 +79,20 @@ http://www.templatemo.com/preview/templatemo_358_carousel
 </head>
 
 <body id="subpage">
-    <select class="change-lang">
+    <!--<select class="change-lang">
         <option value="ua" selected>UA</option>
         <option value="ge">GE</option>
         <option value="en">EN</option>
-    </select>
+    </select>-->
+    <div id="google_translate_element"></div>
+
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
+    </script>
+    
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
     <div id="templatemo_header_wrapper">
         <div id="site_title">
@@ -124,52 +133,99 @@ http://www.templatemo.com/preview/templatemo_358_carousel
 
         <h2 class="lng-product-title40">Top 8 best jobs</h2>
 
-        <div class="col one_fourth gallery_box">
-            <img src="culinarium.jpg" alt="Image 01" class="image_frame" />
+        <div class="card" data-city="culi">
+            <img src="culinarium.jpg" alt="Image 01" class="image_frame" style="height:200px;"/>
             <h5 class="lng-unit100">Culinarium</h5>
-            <p class="lng-product-title11">At this job you can practice you cooking skills earning money. The are a lot of restaurants for being a cooker. The awarage salary is 16000 hryvnias.</p>
+            <p>
+                At this job you can practice you cooking skills earning money. The are a lot of restaurants for being a cooker. The awarage salary is 16000 hryvnias.
+            </p>
+        <ul class="footer_list">
+            <a onclick="readMore('culi')" class="myBtn">Read more</a>
+        </ul>
         </div>
 
-        <div class="col one_fourth gallery_box">
-            <img src="designer.jpg" alt="Image 02" class="image_frame" />
+        <div class="card" data-city="desi">
+            <img src="designer.jpg" alt="Image 02" class="image_frame" style="height:200px;"/>
             <h5 class="lng-unit101">Designer</h5>
-            <p class="lng-product-title12">At this job you'll demonstrate you art-skills. You'll maybe demonstrate ability to do a designs of some street, room, furniture or anyhing else. The awarage salary is approximately 22000 hryvnias.</p>
+            <p>At this job you'll demonstrate you art-skills. You'll maybe demonstrate ability to do a designs of some street, room, furniture or anyhing else. The awe
+                <span class="dots">...</span>
+                <span class="more" style="display: none;">rage salary is approximately 22000 hryvnias.</span>
+            </p>
+        <ul class="footer_list">
+            <a onclick="readMore('desi')" class="myBtn">Read more</a>
+        </ul>
         </div>
 
-        <div class="col one_fourth gallery_box">
-            <img src="architector.jpg" alt="Image 03" class="image_frame" />
+        <div class="card" data-city="arch">
+            <img src="architector.jpg" alt="Image 03" class="image_frame" style="height:200px;"/>
             <h5 class="lng-unit102">Architector</h5>
-            <p class="lng-product-title13">You can work as an architect. That's a required profession as a designer. In this job you'll demonstrate your skills of 3D-Modelling. The average salary is approximately 18000-20000 hryvnias.</p>
+            <p>You can work as an architect. That's a required profession as a designer. In this job you'll demonstrate your skills of 3D-Modelling. The average salary
+                <span class="dots">...</span>
+                <span class="more" style="display: none;">is approximately 18000-20000 hryvnias.</span>
+            </p>
+        <ul class="footer_list">
+            <a onclick="readMore('arch')" class="myBtn">Read more</a>
+        </ul>
         </div>
 
-        <div class="col one_fourth gallery_box">
-            <img src="programmer.jpg" alt="Image 04" class="image_frame" />
+        <div class="card" data-city="progr">
+            <img src="programmer.jpg" alt="Image 04" class="image_frame" style="height:200px;"/>
             <h5 class="lng-unit103">Programmer</h5>
-            <p class="lng-product-title14">Situated in Holosiiv area in 15 minutes of foot to Teremky metro station, trolleybuses 43 and suburb buses and 5 minutes of foot to buses 56, 57 and 75</p>
+            <p>Programming it's ones the best proffesion which requires knowledges of computes basic, some programming language basic like C#/Unity, Python, Java or 
+                <span class="dots">...</span>
+                <span class="more" style="display: none;">c++/Unreal Engine. Also as this job you can do web-developings where you can do the sites using Hyper Market Text language/css, javascript and PHP</span>
+            </p>
+        <ul class="footer_list">
+            <a onclick="readMore('progr')" class="myBtn">Read more</a>
+        </ul>
         </div>
 
-        <div class="col one_fourth gallery_box">
-            <img src="Director.jpg" alt="Image 05" class="image_frame" />
+        <div class="card" data-city="dir">
+            <img src="Director.jpg" alt="Image 05" class="image_frame" style="height:200px;"/>
             <h5 class="lng-unit104">Director</h5>
-            <p class="lng-product-title15">That's also a popular and well-paid job which requires knowledge of video-motion. In this job is analogy to programming you should be collaborate in a command but no writing a code.</p>
+            <p>That's also a popular and well-paid job which requires knowledge of video-motion. In this job is analogy to programming you should be collaborate in
+                <span class="dots">...</span>
+                <span class="more" style="display: none;">a command but no writing a code.</span>
+            </p>
+        <ul class="footer_list">
+            <a onclick="readMore('dir')" class="myBtn">Read more</a>
+        </ul>
         </div>
 
-        <div class="col one_fourth gallery_box">
-            <img src="ProductManager.jpg" alt="Image 06" class="image_frame" />
+        <div class="card" data-city="pro">
+            <img src="ProductManager.jpg" alt="Image 06" class="image_frame" style="height:200px;"/>
             <h5 class="lng-unit105">Product-Manager</h5>
-            <p class="lng-product-title16">Product-Manager is also well-quality proffesion where you don't need a knowledge of programming. You just have to be able to speak with customers. Product Managers are responsible for developing products and services that meet the needs of the customer efficiently. An awerage salary - 22000 hryvnias.</p>
+            <p>Product-Manager is also well-quality proffesion where you don't need a knowledge of programming. You just have to be able to speak with customers.
+                <span class="dots">...</span>
+                <span class="more" style="display: none;">Product Managers are responsible for developing products and services that meet the needs of the customer efficiently. An awerage salary - 22000 hryvnias.</span>
+            </p>
+        <ul class="footer_list">
+            <a onclick="readMore('pro')" class="myBtn">Read more</a>
+        </ul>
         </div>
 
-        <div class="col one_fourth gallery_box">
-            <img src="Logistic.jpg" alt="Image 07" class="image_frame" />
+        <div class="card" data-city="log">
+            <img src="Logistic.jpg" alt="Image 07" class="image_frame" style="height:200px;"/>
             <h5 class="lng-unit106">Logistic</h5>
-            <p class="lng-product-title17">Logistics refers to the strategic movement of goods and services from one place to another with the rise of e-commerce and online shopping, logistics is now integral to the global supply chain process, and it encompasses the procurement, storage and distribution of materials that power the economy. The awerage salary is about 23000 hryvnias.</p>
+            <p>Logistics refers to the strategic movement of goods and services from one place to another with the rise of e-commerce and online shopping, 
+                <span class="dots">...</span>
+                <span class="more" style="display: none;">logistics is now integral to the global supply chain process, and it encompasses the procurement, storage and distribution of materials that power the economy. The awerage salary is about 23000 hryvnias.</span>
+            </p>
+        <ul class="footer_list">
+            <a onclick="readMore('log')" class="myBtn">Read more</a>
+        </ul>
         </div>
 
-        <div class="col one_fourth gallery_box">
-            <img src="Trolleybus driver.jpg" alt="Image 08" class="image_frame" />
+        <div class="card" data-city="trol">
+            <img src="Trolleybus driver.jpg" alt="Image 08" class="image_frame" style="height:200px;"/>
             <h5 class="lng-unit107">Trolleybus driver</h5>
-            <p class="lng-product-title18">Trolleybus driver is also required proffesion in our city. For this job is important to have a driving license of Category A and D. The awerage salary - 15000-20000 hryvnias.</p>
+            <p>Trolleybus driver is also required proffesion in our city. For this job is important to have a driving license of Category A and D.
+                <span class="dots">...</span>
+                <span class="more" style="display: none;">The awerage salary - 15000-20000 hryvnias.</span>
+            </p>
+        <ul class="footer_list">
+            <a onclick="readMore('trol')" class="myBtn">Read more</a>
+        </ul>
         </div>
 
         <div class="cleaner"></div>
@@ -231,9 +287,9 @@ http://www.templatemo.com/preview/templatemo_358_carousel
         <!-- END of templatemo_footer_wrapper -->
     </div>
     <!-- END of templatemo_footer -->
-    <script src="lang2.js"></script>
+    <script src="lng.js"></script>
     <script src="app.js"></script>
-
+    <script src="sc.js"></script>
 
 </body>
 
