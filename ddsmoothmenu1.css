@@ -1,0 +1,297 @@
+.ddsmoothmenu{
+	margin-top: 20px
+}
+
+.ddsmoothmenu ul{
+	z-index:100;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+/*Top level list items*/
+.ddsmoothmenu ul li{
+	position: relative;
+	display: inline;
+	float: left;
+}
+
+/*Top level menu link items style*/
+.ddsmoothmenu ul li {
+	display: block;
+	height: 23px;
+	width: 74px;
+	margin-left: 5px;
+	line-height: 23px;
+	font-size: 13px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #000000;	
+	text-align: center;
+	text-decoration: none;
+	font-weight: 400;
+	outline: none;
+}
+
+.ddsmoothmenu a {
+	display: block;
+	height: 23px;
+	width: 74px;
+	line-height: 23px;
+	font-size: 13px;
+    margin-top: 10px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #000000;	
+	text-align: center;
+	text-decoration: none;
+	font-weight: 400;
+	outline: none;
+}
+
+* html .ddsmoothmenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+display: inline-block;
+}
+
+.ddsmoothmenu ul li a.selected, .ddsmoothmenu ul li a:hover { /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+	color: rgb(0, 0, 0);
+	background: url(../images/templatemo_menu_hover.png)
+}
+
+/*1st sub level menu*/
+.ddsmoothmenu ul li ul {
+	position: absolute;
+	width: 160px;
+	margin: 10px 0 0 5px;
+	left: 0;
+	display: none; /*collapse all sub menus to begin with*/
+	visibility: hidden;
+	background: url(../images/templatemo_smm.png) repeat-y
+}
+
+.ddsmoothmenu ul li ul span.top { position: absolute; width: 160px; height: 5px; top: -5px; left: 0;  background: url(../images/templatemo_smt.png) no-repeat; }
+.ddsmoothmenu ul li ul span.bottom { position: absolute; width: 160px; height: 5px; bottom: -5px; left: 0;  background: url(../images/templatemo_smb.png) no-repeat; }
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.ddsmoothmenu ul li ul li{
+display: list-item;
+float: none;
+}
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.ddsmoothmenu ul li ul li ul{
+top: 0;
+}
+
+/* Sub level menu links style */
+.ddsmoothmenu ul li ul li a{
+	font-weight: 500;
+	width: 140px; /*width of sub menus*/
+	height: 28px;
+	line-height: 28px;
+	margin: 0 10px;
+	font-size: 12px;
+	text-align: left;
+	background: none;
+	color: #000000;
+	border-bottom: 1px solid #000000
+}
+
+.ddsmoothmenu ul li ul li .last {
+	border-bottom: none;
+}
+
+.ddsmoothmenu ul li ul li a.selected, .ddsmoothmenu ul li ul li a:hover {
+	color: rgb(0, 0, 0);
+	width: 129px;
+	margin-left: 11px;
+	background: none;
+}
+
+/* Holly Hack for IE \*/
+* html .ddsmoothmenu{height: 1%;} /*Holly Hack for IE7 and below*/
+
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+
+.downarrowclass{
+position: absolute;
+top: 12px;
+right: 7px;
+}
+
+.rightarrowclass{
+position: absolute;
+top: 6px;
+right: 5px;
+}
+
+/* ######### CSS for shadow added to sub menus  ######### */
+
+.ddshadow{
+position: absolute;
+left: 0;
+top: 0;
+width: 0;
+height: 0;
+}
+
+.toplevelshadow{ /*shadow opacity. Doesn't work in IE*/
+opacity: 0.5;
+}
+/* menu */
+
+
+li::selection{
+    color: white;
+    background-color: black;
+}
+
+
+a::selection{
+    color: white;
+    background-color: black;
+}
+p::selection{
+    color: white;
+    background-color: black;
+}
+cite::selection{
+    color: white;
+    background-color: black;
+}
+span::selection{
+    color: white;
+    background-color: black;
+}
+strong::selection{
+    color: white;
+    background-color: black;
+}
+img::selection{
+    color: white;
+    background-color: black;
+}
+li::selection{
+    color: white;
+    background-color: black;
+}
+h1::selection{
+    color: white;
+    background-color: black;
+}
+h2::selection{
+    color: white;
+    background-color: black;
+}
+h3::selection{
+    color: white;
+    background-color: black;
+}
+h4::selection{
+    color: white;
+    background-color: black;
+}
+div::selection{
+    color: white;
+    background-color: black;
+}
+em::selection{
+    color: white;
+    background-color: black;
+}
+title::selection{
+    color: white;
+    background-color: black;
+}
+li::selection{
+    color: white;
+    background-color: black;
+}
+h5::selection{
+    color: white;
+    background-color: black;
+}
+h6::selection{
+    color: white;
+    background-color: black;
+}
+label::selection{
+    color: white;
+    background-color: black;
+}
+iframe::selection{
+    color: white;
+    background-color: black;
+}
+.content::selection{
+    color: white;
+    background-color: black;
+}
+
+
+.ddsmoothmenu::selection{
+    color: white;
+    background-color: black;
+}
+
+.lng-unit {
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 22%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+}
+
+.lng-centered {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 18%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+}
+
+.lng-unit08 {
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+}
+
+.lng-centered2 {
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 46%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+}
+
+.lng-centered3 {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 48%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+}
+
+.lng-centered4 {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 76%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+}
+
+.lng-centered5 {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 78%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+}

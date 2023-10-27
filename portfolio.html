@@ -1,0 +1,452 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="ua">
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Carousel Theme, Portfolio Page</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link href="residence.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        img {
+            width: 30%;
+            height: 50px;
+            
+        }
+        .bottom_box::selection{
+            color: white;
+            background-color: black;
+        }
+
+        img::selection{
+            color: white;
+            background-color: black;
+        }
+        
+        
+        .div_bottom_box:active{
+            background-color: black;
+            color: white;
+        }
+        .div_blue:active{
+            background-color: black;
+            color: white;
+        }
+        .div_ddsmoothmenu:active{
+            background-color: black;
+            color: white;
+        }
+        
+    </style>
+    
+        
+    
+    <!-- templatemo 358 carousel -->
+    <!-- 
+Carousel Template 
+http://www.templatemo.com/preview/templatemo_358_carousel 
+-->
+    <script type="text/javascript" src="jquery-1-2-4.min.js"></script>
+    <!--script type="text/javascript" src="/jqueryui/js/jquery-ui-1.7.2.custom.min.js"></script-->
+    <script type="text/javascript" src="jquery-ui.min.js"></script>
+    <script type="text/javascript" src="showhide.js"></script>
+    <link rel="stylesheet" href="slimbox.css" type="text/css" media="screen" />
+    <script type="text/JavaScript" src="jquery,mousewheel.js"></script>
+    <script type="text/JavaScript" src="slimbox.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="ddsmoothmenu.css"/>
+
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="ddsmoothmenu.js">
+        /***********************************************
+         * Smooth Navigational Menu- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+         * This notice MUST stay intact for legal use
+         * Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+         ***********************************************/
+    </script>
+
+    <script type="text/javascript">
+        ddsmoothmenu.init({
+            mainmenuid: "templatemo_menu", //menu DIV id
+            orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+            classname: 'ddsmoothmenu', //class added to menu's outer DIV
+            //customtheme: ["#1c5a80", "#18374a"],
+            contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+        })
+    </script>
+
+</head>
+
+<body id="subpage">
+    <!--<select class="change-lang">
+        <option value="ua" selected>UA</option>
+        <option value="ge">GE</option>
+        <option value="en">EN</option>
+    </select>-->
+    <div id="google_translate_element"></div>
+
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
+    </script>
+    
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    
+
+    <div id="templatemo_header_wrapper">
+        <!--Title-->
+        <div id="site_title">
+            <h1><a href="#">Carousel Template</a></h1>
+        </div>
+        <div id="templatemo_menu" class="ddsmoothmenu">
+            <!--The pages-->
+            <ul>
+                <li><a href="search residence.html" class="lng-selected">Home</a></li>
+                <li><a href="about.html" class="lng-selected1">About</a></li>
+                <li><a href="portfolio.html" class="lng-selected2">Portfolio</a></li>
+                <li><a href="blog.html" class="lng-selected3">Blog</a></li>
+                <li><a href="contact.html" class="lng-selected4">Contact</a></li>
+                <li><a href="jobs.html">Jobs</a></li>
+                <li><a href="visitingplaces.html">Visiting places</a></li>
+                <li><a href="useful links.html">Useful links</a></li>
+            </ul>
+            <br style="clear: left" />
+        </div>
+        <!-- end of templatemo_menu -->
+        <div class="cleaner"></div>
+    </div>
+    <!-- END of templatemo_header_wrapper -->
+
+    <div id="templatemo_main">
+
+        <!--Start h2 class-->
+        <h2 class="lng-product-title4">Residences in Kyiv and it's suburbs</h2>
+        <!--END H2 CLASS-->
+        
+        <!--The list that contains all the nesecerity informations-->
+        <!-- Start text1-->
+        <div class="card" data-city="andr">
+            <img src="fajnatown.jpg" class="image_frame" style="height: 200px;"/>
+            <h5>Faynatown residence</h5>
+            <p class="description">
+                Situated in Swyatoschyn area in 10 minutes of foot to Nyvky metro station, trolleybuses 4, 5, 26, 36 and buses 14, 23, 32 and 47
+                <span class="dots"></span>
+                <span class="more" style="display: none;"></span>
+            </p>
+        <ul class="footer_list">
+            <a onclick="readMore('andr')" class="myBtn">Read more</a>
+        </ul>
+        </div>
+        <!--End text1-->
+
+        <!-- Start text2-->
+        <div class="card" data-city="andr1">
+            <img src="unithome.jpg" class="image_frame" style="height: 200px;"/>
+            <h5>Unithome residence</h5>
+            <p class="description">
+                Situated in Schevchenkiv area in 15 minutes of foot to Dorogozhychy metro station and 5 minutes of foot to
+                <span class="dots">...</span>
+                <span class="more" style="display: none;">trolleybuses 16, 19, 23, 31 and 35</span>
+            </p>
+        <ul class="footer_list">
+            <a onclick="readMore('andr1')" class="myBtn">Read more</a>
+        </ul>
+        </div>
+        <!--End text2-->
+
+        <!-- <p>
+            Tokyo is the capital of Japan, the most populous 
+            <em>
+            metropolitan</em>
+             area in the world.
+        </p> -->
+
+        
+         <!-- Start text3-->
+        <div class="card" data-city="andr2">
+            <img src="Komfort Town.jpg" class="image_frame" style="height: 200px;"/>
+            <h5>Comfort Town residence</h5>
+            <p class="description">
+                Situated in Darnytsia in 5-10 minutes of foot to trolleybuses 43, 50 buses 42, 51, 55, 115 and 118 and 
+                <span class="dots">...</span>
+                <span class="more" style="display: none;">10-15 minutes of foot to urbanrail</span>
+            </p>
+        <ul class="footer_list">
+            <a onclick="readMore('andr2')" class="myBtn">Read more</a>
+        </ul>
+        </div>
+        <!--End text3-->
+
+         <!--Start text4-->
+        <div class="card" data-city="andr3">
+            <img src="Respublika.jpg" class="image_frame" style="height: 200px;"/>
+            <h5>Respublica residence</h5>
+            <p class="description">
+                Situated in Holosiiv area in 15 minutes of foot to Teremky metro station, trolleybuses 43 and suburb
+                <span class="dots">...</span>
+                <span class="more" style="display: none;">10-15 minutes of foot to urbanrail</span>
+            </p>
+        <ul class="footer_list">
+            <a onclick="readMore('andr3')" class="myBtn">Read more</a>
+        </ul>
+        </div>
+        <!--End text4-->
+
+         <!--Start text5-->
+        <div class="card" data-city="andr4">
+            <img src="Boston.jpg" class="image_frame" style="height: 200px;"/>
+            <h5>Boston residence</h5>
+            <p class="description">
+                Situated in Obolon area in 10 minutes of foot to Pochaina metro station, 5 minutes of foot to
+                <span class="dots">...</span>
+                <span class="more" style="display: none;"> trolleybuses 30, 31, 29D, 34, buses 21, 101 and 7 minutes of foot to trolleybuses 25 and 27</span>
+            </p>
+        <ul class="footer_list">
+            <a onclick="readMore('andr4')" class="myBtn">Read more</a>
+        </ul>
+        </div>
+        <!--End text5-->
+
+         <!--Start text6-->
+        <div class="card" data-city="andr5">
+            <img src="Obolon Plaza.jpg" class="image_frame" style="height: 200px;"/>
+            <h5>Obolon Plaza residence</h5>
+            <p class="description">
+                Situated in Obolon in 0,5 minutes of foot to Obolon metro station, trams 11 and 17, 2 minutes of
+                <span class="dots">...</span>
+                <span class="more" style="display: none;">foot to buses 73, 102 and trolleybus 44 and 5 minutes of foot to bus 50.</span>
+            </p>
+        <ul class="footer_list">
+            <a onclick="readMore('andr5')" class="myBtn">Read more</a>
+        </ul>
+        </div>
+        <!--End text6-->
+
+         <!--Start text7-->
+        <div class="card" data-city="andr6">
+            <img src="Chicago.jpg" class="image_frame" style="height: 200px;"/>
+            <h5>Chicago residence</h5>
+            <p class="description">
+                Situated in Pechers'kyi area in 5-10 minutes of foot to Olimpiis'ka metro station, 0,5 minutes 
+                <span class="dots">...</span>
+                <span class="more" style="display: none;">of foot to trolleybuses 3, 9, 12, 14 and buses 3, 20 and 69</span>
+            </p>
+        <ul class="footer_list">
+            <a onclick="readMore('andr6')" class="myBtn">Read more</a>
+        </ul>
+        </div>
+        <!--End text7-->
+
+         <!--Start text8-->
+        <div class="card" data-city="andr7">
+            <img src="Saga.jpg" class="image_frame" style="height: 200px;"/>
+            <h5>Saga City space residence</h5>
+            <p class="description">
+                Situated in Podil in 5-15 minutes of foot to Poschtova square metro station, 5-15 minutes of foot to
+                <span class="dots">...</span>
+                <span class="more" style="display: none;"> buses 53, 62, 72, 115, 119, trams 11, 12, 14, 16, 18, 19 and 10-17 minutes of foot Kontraktova square metro station.</span>
+            </p>
+        <ul class="footer_list">
+            <a onclick="readMore('andr7')" class="myBtn">Read more</a>
+        </ul>
+        </div>
+        <!--End text8-->
+
+         <!--Start text9-->
+        <div class="card" data-city="andr8">
+            <img src="Taryantowers.png" class="image_frame" style="height: 200px;"/>
+            <h5>Taryantowers residence</h5>
+            <p class="description">
+                Situated in Podil in 5-15 minutes of foot to Poschtova square metro station, 5-15 minutes of foot to
+                <span class="dots">...</span>
+                <span class="more" style="display: none;"> buses 53, 62, 72, 115, 119, trams 11, 12, 14, 16, 18, 19 and 10-17 minutes of foot Kontraktova square metro station.</span>
+            </p>
+        <ul class="footer_list">
+            <a onclick="readMore('andr8')" class="myBtn">Read more</a>
+        </ul>
+        </div>
+        <!--End text9-->
+
+         <!--Start text10-->
+        <div class="card" data-city="andr9">
+            <img src="Tetrisholl.png" class="image_frame" style="height: 200px;"/>
+            <h5>Tetrisholl residence</h5>
+            <p class="description">
+                Situated in Pechers'kyiv area in 15 minutes of foot to Lybids'ka metro station, to trolleybuses 1, 12, 43, 50, buses 20, 27, 51, 15-20 minutes of foot to Pechers'ka 
+                <span class="dots">...</span>
+                <span class="more" style="display: none;">metro station, trolleybuses 14, 15, 38, to buses 62 and 118.</span>
+            </p>
+        <ul class="footer_list">
+            <a onclick="readMore('andr9')" class="myBtn">Read more</a>
+        </ul>
+        </div>
+        <!--End text10-->
+
+        <!--Start text11-->
+        <div class="card" data-city="andr01">
+            <img src="Smart Obolon Plaza.jpg" class="image_frame" style="height: 200px;"/>
+            <h5>Smart Obolon residence</h5>
+            <p class="description">
+                Situated in Obolon area in two minutes of foot to Minska metro station, two-four minutes of foot to buses 50, 73, 99 and trolleybus 24, 34, 36 and 47
+                <span class="dots">...</span>
+                <span class="more" style="display: none;">and five-ten minutes of foot to tram number 16</span>
+            </p>
+        <ul class="footer_list">
+            <a onclick="readMore('andr01')" class="myBtn">Read more</a>
+        </ul>
+        </div>
+        <!--End text11-->
+
+        <!--Start text12-->
+        <div class="card" data-city="andr02">
+            <img src="Obolon Residence.jpg" class="image_frame" style="height: 200px;"/>
+            <h5>Obolon residence</h5>
+            <p class="description">
+                Situated in Obolon area in 2 minutes of foot to Minska metro station, 2-4 minutes of foot to buses 50, 73, 99 and trolleybus 24, 34, 36 and 47 and
+                <span class="dots">...</span>
+                <span class="more" style="display: none;">ten-fivetenth minutes of foot to tram number sixtenth</span>
+            </p>
+        <ul class="footer_list">
+            <a onclick="readMore('andr02')" class="myBtn">Read more</a>
+        </ul>
+        </div>
+        <!--End text12-->
+
+        <!--Start text13-->
+        <div class="card" data-city="andr03">
+            <img src="044.jpg" class="image_frame" style="height: 200px;"/>
+            <h5>044 residence</h5>
+            <p class="description">
+                Situated in Podil in 5-10 minutes of foot to Tarasa Schevchenka metro station, 2 minutes of foot to trams 11, 12, 16 and 19
+                <span class="dots"></span>
+                <span class="more" style="display: none;"></span>
+            </p>
+        <ul class="footer_list">
+            <a onclick="readMore('andr03')" class="myBtn">Read more</a>
+        </ul>
+        </div>
+        <!--End text13-->
+
+        <!--Start text14-->
+        <div class="card" data-city="andr04">
+            <img src="Signature.jpg" class="image_frame" style="height: 200px;"/>
+            <h5>Signature residence</h5>
+            <p class="description">
+                Situated in Pecherskyi area in 2 minutes of foot to buses 24, 55 and 62 and in 5 minutes of foot to Klovska metro station
+                <span class="dots"></span>
+                <span class="more" style="display: none;"></span>
+            </p>
+        <ul class="footer_list">
+            <a onclick="readMore('andr04')" class="myBtn">Read more</a>
+        </ul>
+        </div>
+        <!--End text14-->
+
+        <!--Start text15-->
+        <div class="card" data-city="andr05">
+            <img src="rybalsky.jpg" class="image_frame" style="height: 200px;"/>
+            <h5>Rybalsky residence</h5>
+            <p class="description">
+                Situated in Podil in 30 minutes of foot to Pochaina metro station, 20 minutes of foot to trolleybuses 30, 31, 29D, 34, buses 21, 101 and 2 minutes of foot to bus 114
+                <span class="dots">...</span>
+                <span class="more" style="display: none;">buses 21, 101 and 2 minutes of foot to bus 114</span>
+            </p>
+        <ul class="footer_list">
+            <a onclick="readMore('andr05')" class="myBtn">Read more</a>
+        </ul>
+        </div>
+        <!--End text15-->
+
+        <!--Start text16-->
+        <div class="card" data-city="andr06">
+            <img src="ZhK-Novopecherskie-Lipki-vizualizacija.jpg" alt="Image 16" class="image_frame" style="height: 200px;"/>
+            <h5>Novopecherskyi Lypky residence</h5>
+            <p class="description">
+                Situated in Pecherskyi area in 15 minutes of foot to Druzhby narodiv metro station, trolleybuses 43, 50, bus 51 and 5 minutes of foot to trolleybuses 15 and 38.
+                <span class="dots"></span>
+                <span class="more" style="display: none;"></span>
+            </p>
+        <ul class="footer_list">
+            <a onclick="readMore('andr06')" class="myBtn">Read more</a>
+        </ul>
+        </div>
+        <!--End text16-->
+
+        <!--<div class="col one_fourth gallery_box">
+            <a href="ZhK-Novopecherskie-Lipki-vizualizacija.jpg" rel="lightbox[portfolio]"><img src="ZhK-Novopecherskie-Lipki-vizualizacija.jpg" alt="Image 16" class="image_frame" /></a>
+            <h5 class="lng-unit49">Novopecherskyi Lypky residence</h5>
+            <p class="lng-product-title017">Situated in Pecherskyi area in 15 minutes of foot to Druzhby narodiv metro station, trolleybuses 43, 50, bus 51 and 5 minutes of foot to trolleybuses 15 and 38.</p>
+        </div>-->
+
+        <div class="cleaner"></div>
+        <div class="pagging">
+            <!--Buttons to the next slides-->
+            <ul>
+                <li><a href="1.html">1</a></li>
+                <li><a href="2.html">2</a></li>
+                <li><a href="3.html">3</a></li>
+            </ul>
+        </div>
+        <div class="cleaner"></div>
+    </div>
+    <!-- END of templatemo_main -->
+
+    <div id="templatemo_bottom_wrapper">
+        <div id="templatemo_bottom">
+            <div class="col one_third">
+                <h4 class="lng-product-title02"><span></span>Blogroll</h4>
+                <div class="bottom_box">
+                    <!--Useful prepositions-->
+                    <ul class="footer_list">
+                        <li><a href="#" class="lng-product-title001">Read more about our career</a></li>
+                        <li><a href="#" class="lng-product-title002">Read how you can get a job</a></li>
+                        <li><a href="#" class="lng-product-title003">Read how you can get a residence if you have no money or bad provided</a></li>
+                        <li><a href="#" class="lng-product-title004">Read more about best residences in Kyiv</a></li>
+                        <li><a href="#" class="lng-product-title005">Read what interesting places can you visit in a city</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col one_third">
+                <h4 class="lng-cool"><span></span>Updates</h4>
+                <div /*class="bottom_box"*/>
+                    <ul class="twitter_post">
+                        <li class="lng-product-title10">A foondation of Jobcenter is began. About updates we'll tell you as soon as.<a href="https://www.instagram.com/"> -Formator</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col one_third no_margin_right">
+                <h4 class="lng-cool1"><span></span>About Us</h4>
+                <div class="bottom_box">
+                    <p class="lng-unit4"><em>You can contact with us and watch our prepositions on such social medias and networkings as:</em></p><br />
+                    <div class="footer_social_button">
+                        <a href="https://t.me/Stephanenko07"><img src="download.jpg" title="twitter" alt="Telegram"/></a>
+                        <a href="#"><img src="youtube.png" title="youtube" alt="youtube" /></a>
+                        <a href="https://www.instagram.com/"><img src="download (1).jpg" title="Instagram" alt="Instagram" /></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cleaner"></div>
+        </div>
+        <!-- END of tempatemo_bottom -->
+    </div>
+    <!-- END of tempatemo_bottom_wrapper -->
+
+    <div id="templatemo_footer_wrapper">
+        <div id="templatemo_footer">
+            Copyright ©2023 Jobcenter company
+        </div>
+        <!-- END of templatemo_footer_wrapper -->
+    </div>
+    <!-- END of templatemo_footer -->
+    <script src="app.js"></script>
+    <script src="sc.js"></script>
+    <script src="lng.js"></script>
+
+
+</body>
+
+</html>

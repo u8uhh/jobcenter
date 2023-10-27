@@ -1,0 +1,300 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="ua">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Carousel Theme, Portfolio Page</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link href="residence.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        img {
+            width: 30%;
+            height: 50px;
+            
+        }
+        .bottom_box::selection{
+            color: white;
+            background-color: black;
+        }
+
+        img::selection{
+            color: white;
+            background-color: black;
+        }
+        
+        
+        .div_bottom_box:active{
+            background-color: black;
+            color: white;
+        }
+        .div_blue:active{
+            background-color: black;
+            color: white;
+        }
+        .div_ddsmoothmenu:active{
+            background-color: black;
+            color: white;
+        }
+        
+    </style>
+    
+        
+    
+    <!-- templatemo 358 carousel -->
+    <!-- 
+Carousel Template 
+http://www.templatemo.com/preview/templatemo_358_carousel 
+-->
+    <script type="text/javascript" src="jquery-1-2-4.min.js"></script>
+    <!--script type="text/javascript" src="/jqueryui/js/jquery-ui-1.7.2.custom.min.js"></script-->
+    <script type="text/javascript" src="jquery-ui.min.js"></script>
+    <script type="text/javascript" src="showhide.js"></script>
+    <link rel="stylesheet" href="slimbox.css" type="text/css" media="screen" />
+    <script type="text/JavaScript" src="jquery,mousewheel.js"></script>
+    <script type="text/JavaScript" src="slimbox.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="ddsmoothmenu.css"/>
+
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="ddsmoothmenu.js">
+        /***********************************************
+         * Smooth Navigational Menu- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+         * This notice MUST stay intact for legal use
+         * Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+         ***********************************************/
+    </script>
+
+    <script type="text/javascript">
+        ddsmoothmenu.init({
+            mainmenuid: "templatemo_menu", //menu DIV id
+            orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+            classname: 'ddsmoothmenu', //class added to menu's outer DIV
+            //customtheme: ["#1c5a80", "#18374a"],
+            contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+        })
+    </script>
+
+</head>
+
+<body id="subpage">
+    <!--<select class="change-lang">
+        <option value="ua" selected>UA</option>
+        <option value="ge">GE</option>
+        <option value="en">EN</option>
+    </select>-->
+
+    <!--The settings of translation-->
+    <div id="google_translate_element"></div>
+
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
+    </script>
+    
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <div id="templatemo_header_wrapper">
+        <!--The title-->
+        <div id="site_title">
+            <h1><a href="#">Carousel Template</a></h1>
+        </div>
+        <div id="templatemo_menu" class="ddsmoothmenu">
+            <ul>
+                <li><a href="search residence.html" class="lng-selected">Home</a></li>
+                <li><a href="about.html" class="lng-selected1">About</a></li>
+                <li><a href="portfolio.html" class="lng-selected2">Portfolio</a></li>
+                <li><a href="blog.html" class="lng-selected3">Blog</a></li>
+                <li><a href="contact.html" class="lng-selected4">Contact</a></li>
+                <li><a href="jobs.html">Jobs</a></li>
+                <li><a href="visitingplaces.html">Visiting places</a></li>
+                <li><a href="useful links.html">Useful links</a></li>
+            </ul>
+            <br style="clear: left" />
+        </div>
+        <!-- end of templatemo_menu -->
+        <div class="cleaner"></div>
+    </div>
+    <!-- END of templatemo_header_wrapper -->
+
+    <div id="templatemo_main">
+
+        <!--The name of page-->
+        <h2 class="lng-product-title40">Top 8 best jobs</h2>
+
+        <!--The texts that contain information about some residence-->
+
+        <!--text1-->
+        <div class="card" data-city="culi">
+            <img src="culinarium.jpg" alt="Image 01" class="image_frame" style="height:200px;"/>
+            <h5 class="lng-unit100">Culinarium</h5>
+            <p>
+                At this job you can practice you cooking skills earning money. The are a lot of restaurants for being a cooker. The awarage salary is 16000 hryvnias.
+            </p>
+        <ul class="footer_list">
+            <a onclick="readMore('culi')" class="myBtn">Read more</a>
+        </ul>
+        </div>
+
+        <!--text2-->
+        <div class="card" data-city="desi">
+            <img src="designer.jpg" alt="Image 02" class="image_frame" style="height:200px;"/>
+            <h5 class="lng-unit101">Designer</h5>
+            <p>At this job you'll demonstrate you art-skills. You'll maybe demonstrate ability to do a designs of some street, room, furniture or anyhing else. The awe
+                <span class="dots">...</span>
+                <span class="more" style="display: none;">rage salary is approximately 22000 hryvnias.</span>
+            </p>
+        <ul class="footer_list">
+            <a onclick="readMore('desi')" class="myBtn">Read more</a>
+        </ul>
+        </div>
+
+        <!--text3-->
+        <div class="card" data-city="arch">
+            <img src="architector.jpg" alt="Image 03" class="image_frame" style="height:200px;"/>
+            <h5 class="lng-unit102">Architector</h5>
+            <p>You can work as an architect. That's a required profession as a designer. In this job you'll demonstrate your skills of 3D-Modelling. The average salary
+                <span class="dots">...</span>
+                <span class="more" style="display: none;">is approximately 18000-20000 hryvnias.</span>
+            </p>
+        <ul class="footer_list">
+            <a onclick="readMore('arch')" class="myBtn">Read more</a>
+        </ul>
+        </div>
+
+        <!--text4-->
+        <div class="card" data-city="progr">
+            <img src="programmer.jpg" alt="Image 04" class="image_frame" style="height:200px;"/>
+            <h5 class="lng-unit103">Programmer</h5>
+            <p>Programming it's ones the best proffesion which requires knowledges of computes basic, some programming language basic like C#/Unity, Python, Java or 
+                <span class="dots">...</span>
+                <span class="more" style="display: none;">c++/Unreal Engine. Also as this job you can do web-developings where you can do the sites using Hyper Market Text language/css, javascript and PHP</span>
+            </p>
+        <ul class="footer_list">
+            <a onclick="readMore('progr')" class="myBtn">Read more</a>
+        </ul>
+        </div>
+
+        <!--text5-->
+        <div class="card" data-city="dir">
+            <img src="Director.jpg" alt="Image 05" class="image_frame" style="height:200px;"/>
+            <h5 class="lng-unit104">Director</h5>
+            <p>That's also a popular and well-paid job which requires knowledge of video-motion. In this job is analogy to programming you should be collaborate in
+                <span class="dots">...</span>
+                <span class="more" style="display: none;">a command but no writing a code.</span>
+            </p>
+        <ul class="footer_list">
+            <a onclick="readMore('dir')" class="myBtn">Read more</a>
+        </ul>
+        </div>
+
+        <!--text6-->
+        <div class="card" data-city="pro">
+            <img src="ProductManager.jpg" alt="Image 06" class="image_frame" style="height:200px;"/>
+            <h5 class="lng-unit105">Product-Manager</h5>
+            <p>Product-Manager is also well-quality proffesion where you don't need a knowledge of programming. You just have to be able to speak with customers.
+                <span class="dots">...</span>
+                <span class="more" style="display: none;">Product Managers are responsible for developing products and services that meet the needs of the customer efficiently. An awerage salary - 22000 hryvnias.</span>
+            </p>
+        <ul class="footer_list">
+            <a onclick="readMore('pro')" class="myBtn">Read more</a>
+        </ul>
+        </div>
+
+        <!--text7-->
+        <div class="card" data-city="log">
+            <img src="Logistic.jpg" alt="Image 07" class="image_frame" style="height:200px;"/>
+            <h5 class="lng-unit106">Logistic</h5>
+            <p>Logistics refers to the strategic movement of goods and services from one place to another with the rise of e-commerce and online shopping, 
+                <span class="dots">...</span>
+                <span class="more" style="display: none;">logistics is now integral to the global supply chain process, and it encompasses the procurement, storage and distribution of materials that power the economy. The awerage salary is about 23000 hryvnias.</span>
+            </p>
+        <ul class="footer_list">
+            <a onclick="readMore('log')" class="myBtn">Read more</a>
+        </ul>
+        </div>
+
+        <!--text8-->
+        <div class="card" data-city="trol">
+            <img src="Trolleybus driver.jpg" alt="Image 08" class="image_frame" style="height:200px;"/>
+            <h5 class="lng-unit107">Trolleybus driver</h5>
+            <p>Trolleybus driver is also required proffesion in our city. For this job is important to have a driving license of Category A and D.
+                <span class="dots">...</span>
+                <span class="more" style="display: none;">The awerage salary - 15000-20000 hryvnias.</span>
+            </p>
+        <ul class="footer_list">
+            <a onclick="readMore('trol')" class="myBtn">Read more</a>
+        </ul>
+        </div>
+
+        <div class="cleaner"></div>
+        <!--The buttons to anothers sites-->
+        <div class="pagging">
+            <ul>
+                <li><a href="search residence.html">1</a></li>
+                <li><a href="visitingplaces.html">2</a></li>
+                <li><a href="useful links.html">3</a></li>
+            </ul>
+        </div>
+        <div class="cleaner"></div>
+    </div>
+    <!-- END of templatemo_main -->
+
+    <div id="templatemo_bottom_wrapper">
+        <div id="templatemo_bottom">
+            <div class="col one_third">
+                <h4 class="lng-product-title02"><span></span>Blogroll</h4>
+                <div class="bottom_box">
+                <!--Aditional links-->
+                    <ul class="footer_list">
+                        <li><a href="#" class="lng-product-title001">Read more about our career</a></li>
+                        <li><a href="#" class="lng-product-title002">Read how you can get a job</a></li>
+                        <li><a href="#" class="lng-product-title003">Read how you can get a residence if you have no money or bad provided</a></li>
+                        <li><a href="#" class="lng-product-title004">Read more about best residences in Kyiv</a></li>
+                        <li><a href="#" class="lng-product-title005">Read what interesting places can you visit in a city</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col one_third">
+                <h4 class="lng-cool"><span></span>Updates</h4>
+                <div /*class="bottom_box"*/>
+                    <ul class="twitter_post">
+                        <li class="lng-product-title10">A foondation of Jobcenter is began. About updates we'll tell you as soon as.<a href="https://www.instagram.com/"> -Formator</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--Prepositions-->
+            <div class="col one_third no_margin_right">
+                <h4 class="lng-cool1"><span></span>About Us</h4>
+                <div class="bottom_box">
+                    <p class="lng-unit4"><em>You can contact with us and watch our prepositions on such social medias and networkings as:</em></p><br />
+                    <div class="footer_social_button">
+                        <a href="https://t.me/Stephanenko07"><img src="download.jpg" title="twitter" alt="Telegram"/></a>
+                        <a href="#"><img src="youtube.png" title="youtube" alt="youtube" /></a>
+                        <a href="https://www.instagram.com/"><img src="download (1).jpg" title="Instagram" alt="Instagram" /></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cleaner"></div>
+        </div>
+        <!-- END of tempatemo_bottom -->
+    </div>
+    <!-- END of tempatemo_bottom_wrapper -->
+
+    <div id="templatemo_footer_wrapper">
+        <div id="templatemo_footer">
+            Copyright ©2023 Jobcenter company
+        </div>
+        <!-- END of templatemo_footer_wrapper -->
+    </div>
+    <!-- END of templatemo_footer -->
+    <script src="lng.js"></script>
+    <script src="app.js"></script>
+    <script src="sc.js"></script>
+
+</body>
+
+</html>
